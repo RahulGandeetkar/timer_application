@@ -42,6 +42,6 @@ function resetTimer(){
     seconds=0;
     updateDisplay(seconds);
 }
-startBtn.addEventListener('click',startTimer());
+startBtn.addEventListener('click',startTimer);
 stopBtn.addEventListener('click',stopTimer);
 resetBtn.addEventListener('click',resetTimer);
